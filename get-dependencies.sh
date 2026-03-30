@@ -6,7 +6,11 @@ ARCH=$(uname -m)
 
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
-pacman -Syu --noconfirm openbve
+if [ "$ARCH" = "x86_64" ]; then
+  pacman -Syu --noconfirm openbve
+else
+  make-aur-package --archlinux-pkg openbve
+fi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
