@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/openbve.desktop
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/openbve /usr/bin/mono /usr/lib/openbve/OpenBve.exe /usr/lib/openbve /usr/share/games/openbve /usr/lib/libmono*.so* /usr/lib/mono/4.5* #/usr/lib/mono/4.0* /usr/lib/mono/4.5*
+quick-sharun /usr/bin/openbve /usr/bin/mono /usr/lib/openbve/OpenBve.exe /usr/lib/openbve /usr/share/games/openbve /usr/lib/libmono*.so* /usr/lib/mono/4.5/* /usr/lib/mono/4.5-api/* #/usr/lib/mono/4.0* /usr/lib/mono/4.5*
 
 # Additional changes can be done in between here
 
