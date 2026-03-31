@@ -12,7 +12,7 @@ export ICON=https://raw.githubusercontent.com/leezer3/OpenBVE/refs/heads/master/
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/mono /usr/lib/openbve/OpenBve.exe /usr/lib/openbve /usr/share/games/openbve /usr/lib/mono/4.0* /usr/lib/mono/4.5* /usr/lib/libmono*.so*
+quick-sharun /usr/bin/mono /usr/lib/openbve/OpenBve.exe /usr/lib/openbve /usr/share/games/openbve /usr/lib/libmono*.so* #/usr/lib/mono/4.0* /usr/lib/mono/4.5* 
 
 # Additional changes can be done in between here
 
