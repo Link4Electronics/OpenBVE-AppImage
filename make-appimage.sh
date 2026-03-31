@@ -9,11 +9,10 @@ export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
 export ICON=https://raw.githubusercontent.com/leezer3/OpenBVE/refs/heads/master/graphics/logo_icon.svg
-export DESKTOP=/usr/share/applications/openbve.desktop
 export DEPLOY_OPENGL=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/openbve /usr/lib/openbve /usr/share/games/openbve /usr/bin/mono /usr/lib/mono/4.0* /usr/lib/mono/4.5* /usr/lib/libmono*.so*
+quick-sharun /usr/bin/mono /usr/lib/openbve/OpenBve.exe /usr/lib/openbve /usr/share/games/openbve /usr/lib/mono/4.0* /usr/lib/mono/4.5* /usr/lib/libmono*.so*
 
 # Additional changes can be done in between here
 
